@@ -105,9 +105,8 @@ public class RPS {
     public static void main(String[] args) {
         Random random=new Random();
         Scanner sc=new Scanner(System.in);
-        int score;
+        System.out.print("Enter y or n:"); 
         while(true){
-            System.out.print("Enter y or n:"); 
         String ch=sc.nextLine();  
             switch(ch){
                 case "y":String user = getUser(sc);
