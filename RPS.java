@@ -117,7 +117,7 @@ public class RPS {
                         System.out.print("Do you wish to play again? (y or n):");
                         break;
                 case "n":
-                        System.out.print("========GAME OVER=======\nFINAL SCORE:");
+                        System.out.print("========GAME OVER=======\n        FINAL SCORE:");
                         break;
             }
         }
